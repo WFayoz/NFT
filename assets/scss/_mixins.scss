@@ -1,0 +1,52 @@
+@mixin dflex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@mixin primarybutton{
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    background-color: $primarybtn;
+    border: 2px solid $primarybtn;
+    border-radius: 20px;
+    transition: 300ms;
+    &:hover{
+        border: 2px solid $primarybtn;
+        background-color: transparent;
+    }
+    
+}
+@mixin secondarybutton{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    background-color: $primarybtn;
+    border: 2px solid $primarybtn;
+    border-radius: 20px;
+    transition: 300ms;
+    &:hover{
+        border: 2px solid $primarybtn;
+        background-color: transparent;
+    }
+}
+@mixin tertiarybutton{
+    height: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    background-color: $primarybtn;
+    border: 2px solid $primarybtn;
+    border-radius: 20px;
+    transition: 300ms;
+    &:hover{
+        border: 2px solid $primarybtn;
+        background-color: transparent;
+    }
+}

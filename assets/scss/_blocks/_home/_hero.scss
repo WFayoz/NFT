@@ -1,0 +1,111 @@
+.section1{
+    padding-top: 100px;
+    background-color: $primarybg;
+    .hero{
+        padding: 80px 0px;
+        width: 100%;
+        @include dflex;
+        &__left{
+            width: 510px;
+            @include dflex;
+            flex-direction: column;
+            align-items: start;
+            h1{
+                color: $primarytext;
+                font-size: 67px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 110%;
+                text-transform: capitalize;
+            }
+            &--label{
+                padding-top: 20px;
+                color: $primarytext;
+                font-size: 22px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 160%;
+                text-transform: capitalize;
+            }
+            button{
+                margin-top: 30px;
+                padding: 0 50px;
+                @include secondarybutton;
+                @include dflex;
+                p{
+                    color: $primarytext;
+                    text-align: center;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 140%;
+                }
+            }
+            div{
+                padding-top: 30px;
+                width: 100%;
+                @include dflex;
+
+                span{
+                    @include dflex;
+                    flex-direction: column;
+                    align-items: start;
+                    h4{
+                        color: $primarytext;
+                        font-size: 28px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 140%;
+                        text-transform: capitalize;
+                    }
+                    p{
+                        color: $primarytext;
+                        font-size: 23.99px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 160%;
+                        text-transform: capitalize;
+                    }
+                }
+            }
+        }
+        &__right{
+            background-color: $secondarybg;
+            @include dflex;
+            align-items: start;
+            flex-direction: column;
+            border-radius: 20px;
+            &--label{
+                padding: 20px;
+                display: flex;
+                align-items: start;
+                flex-direction: column;
+                gap: 10px;
+                h5{
+                    color: $primarytext;
+                    font-size: 22px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 140%;
+                    text-transform: capitalize;
+                }
+                span{
+                    @include dflex;
+                    gap: 12px;
+                    img{
+                        width: 24px;
+                        height: 24px;
+                    }
+                    p{
+                        color: $primarytext;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 140%;
+                    }
+                }
+            }
+        }
+
+    }
+}
