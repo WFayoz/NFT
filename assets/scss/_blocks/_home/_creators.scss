@@ -1,0 +1,11 @@
+.creators{
+    width: 100%;
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    gap: 30px;
+    div{ 
+        width: 240px;
+        height: 238px;
+        background-color: aqua;
+    }
+}

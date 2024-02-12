@@ -163,6 +163,124 @@ body {
   line-height: 140%;
 }
 
+.section2 {
+  padding: 80px 0;
+  background-color: #2B2B2B;
+}
+.section2 .collection {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.section2 .collection__label {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: start;
+}
+.section2 .collection__label h3 {
+  color: #FFF;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+  text-transform: capitalize;
+}
+.section2 .collection__label p {
+  color: #FFF;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  text-transform: capitalize;
+}
+.section2 .collection__box {
+  width: 100%;
+  padding-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.section2 .collection__box .collection__box--all {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.section2 .collection__box .collection__box--all__center {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 15px;
+}
+.section2 .collection__box .collection__box--all__center--number {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  justify-content: center;
+  background-color: #A259FF;
+  border-radius: 20px;
+}
+.section2 .collection__box .collection__box--all__center--number h5 {
+  color: #FFF;
+  font-family: "Space Mono", monospace;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 160%;
+  text-transform: capitalize;
+}
+.section2 .collection__box .collection__box--all__bottom {
+  padding-top: 15px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: start;
+}
+.section2 .collection__box .collection__box--all__bottom h5 {
+  color: #FFF;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%;
+  text-transform: capitalize;
+}
+.section2 .collection__box .collection__box--all__bottom span {
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+.section2 .collection__box .collection__box--all__bottom span p {
+  color: #FFF;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+.creators {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+.creators div {
+  width: 240px;
+  height: 238px;
+  background-color: aqua;
+}
+
 header {
   background-color: #2B2B2B;
   width: 100%;
