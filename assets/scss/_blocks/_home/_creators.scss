@@ -1,11 +1,99 @@
-.creators{
-    width: 100%;
-    display: grid;
-    grid-template-columns:repeat(4,1fr);
-    gap: 30px;
-    div{ 
-        width: 240px;
-        height: 238px;
-        background-color: aqua;
+.section3{
+    padding:  80px 0px;
+    background-color: $primarybg;
+    .creators{
+        width: 100%;
+        @include dflex;
+        flex-direction: column;
+        &__caption{
+            width: 100%;
+            @include dflex;
+            align-items: end;
+            div{
+                display: flex;
+                flex-direction: column;
+                h3{
+                    color: $primarytext;
+                    font-size: 38px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 120%; 
+                    text-transform: capitalize;
+                }
+                p{
+                    padding-top: 10px;
+                    color: $primarytext;
+                    font-size: 22px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 160%;
+                    text-transform: capitalize;
+                }
+    
+            }
+            button{
+                padding: 0px 50px;
+                @include dflex;
+                @include secondarybutton;
+                p{
+                    color: $primarytext;
+                    text-align: center;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 140%; 
+                }
+            }
+        }
+        &__box{
+            padding-top: 60px;
+            display: grid;
+            gap: 30px;
+            grid-template-columns: repeat(4,1fr);
+            &--item{
+                padding: 20px 25px;
+                background-color: $secondarybg;
+                border-radius: 30px;
+                div{
+                    @include dflex;
+                    flex-direction: column;
+                    a{
+                        margin-top: 20px;
+                        padding: 0px 20px;
+                        color: $primarytext;
+                        text-align: center;
+                        font-size: 22px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: 140%; 
+                        text-transform: capitalize;
+                        &:hover{
+                            color: $primarybtn;
+                        }
+                    }
+                    span{
+                        padding-top: 5px;
+                        @include dflex;
+                        p{
+                            color: $tertiarybg;
+                            text-align: right;
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 140%; 
+                            padding-right: 10px;
+                        }
+                        h6{
+                            color: $primarytext;
+                            font-family: 'Space Mono', monospace;
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 140%; 
+                        }
+                    }
+                }
+            }
+        }
     }
 }
