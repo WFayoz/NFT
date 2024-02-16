@@ -1,0 +1,46 @@
+.section4 {
+  padding: 80px 0;
+  background-color: $primarybg;
+  .categories {
+    @include dflex;
+    flex-direction: column;
+    &__caption {
+      width: 100%;
+      text-align: start;
+      color: $primarytext;
+      font-size: 38px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 120%;
+      text-transform: capitalize;
+    }
+    &__box {
+      display: grid;
+      padding-top: 60px;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 30px;
+      div {
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        background-color: $secondarybg;
+        h5 {
+            display: flex;
+            a {
+            padding:20px;
+            color: $primarytext;
+            font-size: 22px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 140%;
+            text-transform: capitalize;
+            &:hover{
+                color: $primarybtn;
+                transition: 300ms;
+            }
+          }
+        }
+      }
+    }
+  }
+}

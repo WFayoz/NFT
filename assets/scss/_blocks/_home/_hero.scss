@@ -29,16 +29,22 @@
             }
             button{
                 margin-top: 30px;
-                padding: 0 50px;
                 @include secondarybutton;
                 @include dflex;
-                p{
-                    color: $primarytext;
-                    text-align: center;
-                    font-size: 16px;
-                    font-style: normal;
-                    font-weight: 600;
-                    line-height: 140%;
+                a{
+                    width: 100%;
+                    min-width: 100%;
+                    padding: 0 50px;
+                    gap: 10px;
+                    @include dflex;
+                    p{
+                        color: $primarytext;
+                        text-align: center;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: 140%;
+                    }
                 }
             }
             div{

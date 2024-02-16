@@ -32,16 +32,21 @@
     
             }
             button{
-                padding: 0px 50px;
                 @include dflex;
                 @include secondarybutton;
-                p{
-                    color: $primarytext;
-                    text-align: center;
-                    font-size: 16px;
-                    font-style: normal;
-                    font-weight: 600;
-                    line-height: 140%; 
+                a{
+                   @include dflex;
+                   width: 100%;
+                   padding: 0px 50px;
+                   gap: 10px;
+                   p{
+                       color: $primarytext;
+                       text-align: center;
+                       font-size: 16px;
+                       font-style: normal;
+                       font-weight: 600;
+                       line-height: 140%; 
+                   }
                 }
             }
         }
