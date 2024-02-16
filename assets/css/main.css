@@ -380,6 +380,7 @@ body {
 }
 .section3 .creators__box--item div a:hover {
   color: #A259FF;
+  transition: 300ms;
 }
 .section3 .creators__box--item div span {
   padding-top: 5px;

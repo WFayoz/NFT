@@ -74,6 +74,7 @@
                         text-transform: capitalize;
                         &:hover{
                             color: $primarybtn;
+                            transition: 300ms;
                         }
                     }
                     span{
