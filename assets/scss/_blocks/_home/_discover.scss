@@ -121,6 +121,24 @@
                 }
 
             }
+            &--left{
+                background-color: $secondarybg;
+                border-radius: 20px;
+                @include dflex;
+                flex-direction: column;
+            }
+            &--center{
+                background-color: $secondarybg;
+                border-radius: 20px;
+                @include dflex;
+                flex-direction: column;
+            }
+            &--right{
+                background-color: $secondarybg;
+                border-radius: 20px;
+                @include dflex;
+                flex-direction: column;
+            }
         }
 
     }

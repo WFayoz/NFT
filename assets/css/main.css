@@ -596,6 +596,113 @@ body {
   font-weight: 400;
   line-height: 140%;
 }
+.section5 .discover__cards--left {
+  background-color: #3B3B3B;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.section5 .discover__cards--center {
+  background-color: #3B3B3B;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.section5 .discover__cards--right {
+  background-color: #3B3B3B;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.section6 {
+  background: url(/assets/imgs/magicbg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.section6 .magic {
+  width: 100%;
+  padding: 360px 0px 60px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.section6 .magic__left {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: start;
+}
+.section6 .magic__left span {
+  background-color: #3B3B3B;
+  border-radius: 20px;
+}
+.section6 .magic__left span a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 10px 20px;
+}
+.section6 .magic__left span a h6 {
+  color: #FFF;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 22.4px */
+}
+.section6 .magic__left h1 {
+  padding-top: 30px;
+  color: #FFF;
+  font-size: 51px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 110%;
+  text-transform: capitalize;
+}
+.section6 .magic__left button {
+  margin-top: 30px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  background-color: #A259FF;
+  border: 2px solid #A259FF;
+  border-radius: 20px;
+  transition: 300ms;
+  background: #fff;
+  border: 2px solid #fff;
+}
+.section6 .magic__left button:hover {
+  border: 2px solid #A259FF;
+  background-color: transparent;
+}
+.section6 .magic__left button:hover {
+  border: 2px solid #fff;
+}
+.section6 .magic__left button a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px;
+  gap: 10px;
+}
+.section6 .magic__left button a p {
+  color: #2B2B2B;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%;
+}
 
 header {
   background-color: #2B2B2B;
