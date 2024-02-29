@@ -53,5 +53,73 @@ header{
                 }
             }
         }
+        &__humburger{
+            display: none;
+        }
+    }
+}
+
+@media (max-width:834px){
+    header{
+        background-color: $primarybg;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 9999;
+        .navigation{
+            width: 100%;
+            padding: 15px 35px;
+            @include dflex;
+            background: transparent;
+            &__logo{
+                background: transparent;
+            }
+            &__items{
+                @include dflex;
+                gap: 20px;
+                display: none;
+                &--list{
+                    @include dflex;
+                    gap: 20px;
+                    li{
+                        
+                        a{
+                            padding: 10px 10px;
+                            color: $primarytext;
+                            text-align: center;
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 600;
+                            line-height: 140%;
+                        }
+                    }
+                }
+                &--button{
+                    @include secondarybutton;
+                    @include dflex;
+                    a{
+                        width: 100%;
+                        max-width: 100%;
+                        padding: 0 30px;
+                        height: 100%;
+                        @include dflex;
+                        gap: 10px;
+                        p{
+                            color: $primarytext;
+                            text-align: center;
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 600;
+                            line-height: 140%;
+                        }
+                    }
+                }
+            }
+            &__humburger{
+                display:flex;
+            }
+        }
     }
 }

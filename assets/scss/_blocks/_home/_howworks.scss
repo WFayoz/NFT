@@ -1,5 +1,5 @@
 .section7{
-    padding: 80px 0px;
+    padding: 40px 0px;
     background-color: $primarybg;
     .howworks{
         @include dflex;
@@ -64,5 +64,151 @@
             }
         }
         
+    }
+}
+
+
+@media (max-width:1100px){
+    .section7{
+        padding: 80px 0px;
+        background-color: $primarybg;
+        .howworks{
+            @include dflex;
+            flex-direction: column;
+            &__caption{
+                width: 100%;
+                @include dflex;
+                flex-direction: column;
+                align-items: start;
+                h3{
+                    color: $primarytext;
+                    font-size: 28px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 120%;
+                    text-transform: capitalize;
+                }
+                p{
+                    color: $primarytext;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 160%; 
+                    text-transform: capitalize;
+                }
+            }
+            &__cards{
+                padding-top: 48px;
+                width: 100%;
+                display: grid;
+                grid-template-columns: repeat(3,1fr);
+                gap: 30px;
+                &--all{
+                    padding: 10px 20px 20px;
+                    background-color: $secondarybg;
+                    @include dflex;
+                    flex-direction: column;
+                    border-radius: 20px;
+                    img{
+                        width: 160px;
+                        height: 160px;
+                    }
+                    &__bottom{
+                        h1{
+                            margin-top: 20px;
+                            color: $primarytext;
+                            text-align: center;
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 600;
+                            line-height: 140%;
+                            text-transform: capitalize;
+                        }
+                        p{
+                            margin-top: 10px;
+                            width: 100%;
+                            height: 88px;
+                            color: $primarytext;
+                            text-align: center;
+                            font-size: 12px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 140%;
+                        }
+                    }
+                }
+            }
+            
+        }
+    }
+}
+@media (max-width:690px){
+    .section7{
+        padding: 80px 0px;
+        background-color: $primarybg;
+        .howworks{
+            @include dflex;
+            flex-direction: column;
+            &__caption{
+                width: 100%;
+                @include dflex;
+                flex-direction: column;
+                align-items: start;
+                h3{
+                    color: $primarytext;
+                    font-size: 38px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 120%;
+                    text-transform: capitalize;
+                }
+                p{
+                    color: $primarytext;
+                    font-size: 22px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 160%; 
+                    text-transform: capitalize;
+                }
+            }
+            &__cards{
+                padding-top: 48px;
+                width: 100%;
+                display: grid;
+                grid-template-columns: repeat(1,1fr);
+                gap: 30px;
+                &--all{
+                    padding: 10px 30px 30px;
+                    background-color: $secondarybg;
+                    @include dflex;
+                    flex-direction: column;
+                    border-radius: 20px;
+                    &__bottom{
+                        h1{
+                            margin-top: 20px;
+                            color: $primarytext;
+                            text-align: center;
+                            font-size: 22px;
+                            font-style: normal;
+                            font-weight: 600;
+                            line-height: 140%;
+                            text-transform: capitalize;
+                        }
+                        p{
+                            margin-top: 10px;
+                            width: 100%;
+                            height: 88px;
+                            color: $primarytext;
+                            text-align: center;
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 140%;
+                        }
+                    }
+                }
+            }
+            
+        }
     }
 }
