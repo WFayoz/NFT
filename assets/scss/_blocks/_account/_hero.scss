@@ -1,0 +1,347 @@
+.account__section1{
+    background-color: $primarybg;
+    padding-top: 100px;
+    .accHero{
+        @include dflex;
+        &__left{
+            margin-left: -120px;
+        }
+        &__right{
+            padding: 80px 0px;
+            @include dflex;
+            flex-direction: column;
+            align-items: start;
+            &--label{
+                width: 460px;
+                h1{
+                    color: $primarytext;
+                    font-size: 51px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 110%;
+                    text-transform: capitalize;
+                }
+                p{
+                    padding-top: 20px;
+                    color: $primarytext;
+                    font-size: 22px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 160%; 
+                    text-transform: capitalize;
+                }
+            }
+            form{
+                margin-top: 40px;
+                width: 290px;
+                @include dflex;
+                flex-direction: column;
+                gap: 15px;
+                background-color: transparent;
+                input{
+                    width: 100%;
+                    padding: 16px 20px;
+                    border-radius: 20px;
+                    border: 2px solid transparent;
+                    outline: none;
+                    #username{
+                        background-image: url();
+                    }
+                }
+                button{
+                    margin-top: 15px;
+                    width: 100%;
+                    @include tertiarybutton;
+                    color: $primarytext;
+                    text-align: center;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 140%; 
+                }
+            }
+        }
+    }
+}
+@media (max-width:1000px){
+    .account__section1{
+        background-color: $primarybg;
+        padding-top: 100px;
+        .accHero{
+            @include dflex;
+            &__left{
+                margin-left: -120px;
+            }
+            &__right{
+                padding: 80px 0px;
+                @include dflex;
+                flex-direction: column;
+                align-items: start;
+                &--label{
+                    width: 325px;
+                    h1{
+                        color: $primarytext;
+                        font-size: 38px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: 110%;
+                        text-transform: capitalize;
+                    }
+                    p{
+                        padding-top: 20px;
+                        color: $primarytext;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 160%; 
+                        text-transform: capitalize;
+                    }
+                }
+                form{
+                    margin-top: 40px;
+                    width: 290px;
+                    @include dflex;
+                    flex-direction: column;
+                    gap: 15px;
+                    background-color: transparent;
+                    input{
+                        width: 100%;
+                        padding: 16px 20px;
+                        border-radius: 20px;
+                        border: 2px solid transparent;
+                        outline: none;
+                        #username{
+                            background-image: url();
+                        }
+                    }
+                    button{
+                        margin-top: 15px;
+                        width: 100%;
+                        @include tertiarybutton;
+                        color: $primarytext;
+                        text-align: center;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: 140%; 
+                    }
+                }
+            }
+        }
+    } 
+}
+@media (max-width:834px){
+    .account__section1{
+        background-color: $primarybg;
+        padding-top: 100px;
+        .accHero{
+            @include dflex;
+            &__left{
+                margin-left: -20px;
+                img{
+                    width: 397px;
+                    height:615px;
+                }
+            }
+            &__right{
+                padding: 60px 0px;
+                @include dflex;
+                flex-direction: column;
+                align-items: start;
+                &--label{
+                    width: 325px;
+                    h1{
+                        color: $primarytext;
+                        font-size: 38px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: 110%;
+                        text-transform: capitalize;
+                    }
+                    p{
+                        padding-top: 20px;
+                        color: $primarytext;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 160%; 
+                        text-transform: capitalize;
+                    }
+                }
+                form{
+                    margin-top: 40px;
+                    width: 290px;
+                    @include dflex;
+                    flex-direction: column;
+                    gap: 15px;
+                    background-color: transparent;
+                    input{
+                        width: 100%;
+                        padding: 16px 20px;
+                        border-radius: 20px;
+                        border: 2px solid transparent;
+                        outline: none;
+                        #username{
+                            background-image: url();
+                        }
+                    }
+                    button{
+                        margin-top: 15px;
+                        width: 100%;
+                        @include tertiarybutton;
+                        color: $primarytext;
+                        text-align: center;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: 140%; 
+                    }
+                }
+            }
+        }
+    } 
+}
+@media (max-width:760px){
+    .account__section1{
+        background-color: $primarybg;
+        padding-top: 100px;
+        .accHero{
+            @include dflex;
+            flex-direction: column;
+            &__left{
+                margin-left: 0px;
+                img{
+                    width: 100%;
+                    height:615px;
+                }
+            }
+            &__right{
+                padding: 40px 0px;
+                @include dflex;
+                flex-direction: column;
+                align-items: start;
+                &--label{
+                    width: 100%;
+                    h1{
+                        color: $primarytext;
+                        font-size: 38px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: 110%;
+                        text-transform: capitalize;
+                    }
+                    p{
+                        padding-top: 20px;
+                        color: $primarytext;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 160%; 
+                        text-transform: capitalize;
+                    }
+                }
+                form{
+                    margin-top: 40px;
+                    width: 290px;
+                    @include dflex;
+                    flex-direction: column;
+                    gap: 15px;
+                    background-color: transparent;
+                    input{
+                        width: 100%;
+                        padding: 16px 20px;
+                        border-radius: 20px;
+                        border: 2px solid transparent;
+                        outline: none;
+                        #username{
+                            background-image: url();
+                        }
+                    }
+                    button{
+                        margin-top: 15px;
+                        width: 100%;
+                        @include tertiarybutton;
+                        color: $primarytext;
+                        text-align: center;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: 140%; 
+                    }
+                }
+            }
+        }
+    } 
+}
+@media (max-width:500px){
+    .account__section1{
+        background-color: $primarybg;
+        padding-top: 80px;
+        .accHero{
+            @include dflex;
+            flex-direction: column;
+            &__left{
+                margin-left: 0px;
+                img{
+                    width: 100%;
+                    height:350px;
+                }
+            }
+            &__right{
+                padding: 30px 0px;
+                @include dflex;
+                flex-direction: column;
+                align-items: center;
+                &--label{
+                    width: 100%;
+                    h1{
+                        color: $primarytext;
+                        font-size: 38px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: 110%;
+                        text-transform: capitalize;
+                    }
+                    p{
+                        padding-top: 20px;
+                        color: $primarytext;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 160%; 
+                        text-transform: capitalize;
+                    }
+                }
+                form{
+                    margin-top: 30px;
+                    width: 290px;
+                    @include dflex;
+                    flex-direction: column;
+                    gap: 15px;
+                    background-color: transparent;
+                    input{
+                        width: 100%;
+                        padding: 16px 20px;
+                        border-radius: 20px;
+                        border: 2px solid transparent;
+                        outline: none;
+                        #username{
+                            background-image: url();
+                        }
+                    }
+                    button{
+                        margin-top: 15px;
+                        width: 100%;
+                        @include tertiarybutton;
+                        color: $primarytext;
+                        text-align: center;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: 140%; 
+                    }
+                }
+            }
+        }
+    } 
+}
