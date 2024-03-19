@@ -4899,6 +4899,27 @@ header .navigation__humburger {
     display: flex;
   }
 }
+.navigation__items.active {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: #2B2B2B;
+  z-index: 999;
+  padding-bottom: 20px;
+}
+
+.navigation__items.active ul {
+  flex-direction: column;
+  padding: 10px 0;
+}
+
+.navigation__items.active li {
+  margin: 10px 0;
+}
+
 .footer {
   padding: 40px 0;
   background-color: #3B3B3B;
